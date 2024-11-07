@@ -23,8 +23,6 @@ header{
 .menu{
     width: 50%;
     display: flex;
-   
-    display: flex;
     justify-content: flex-end;
 }
 .menu ul{
@@ -393,6 +391,7 @@ form {
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin-right: 0;
     }
     .menu ul li a{
     text-decoration: none;
@@ -400,7 +399,8 @@ form {
     color: black;
     font-size: 18px;
     transition: color 0.5s ease;
-   
+   margin-right: 0;
+   margin-left: 90%;
     height: 60px;
    
     }
